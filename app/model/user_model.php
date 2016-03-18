@@ -81,6 +81,10 @@ class UserModel{
   }
   }
 
+  function numeros($mensaje){
+    echo json_encode($mensaje);
+  }
+
 
   function setCredentials($user,$pass,$dbName,$driver, $serv){
     switch($driver){
